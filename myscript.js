@@ -2007,61 +2007,415 @@
 //     this.items = item;
 //   }
 
-  addNote(item) {
-    const inArray = this.items.some(({ text }) => text === item.text);
-    if (!inArray) {
-      this.items.push(item);
-    }
-  }
+//   addNote(item) {
+//     const inArray = this.items.some(({ text }) => text === item.text);
+//     if (!inArray) {
+//       this.items.push(item);
+//     }
+//   }
 
-  removeNote(tetx) {
-    this.items = this.items.filter(())
-  }
+//   removeNote(tetx) {
+//     this.items = this.items.filter(())
+//   }
 
-  updatePriority(text, newPriority) {}
-}
+//   updatePriority(text, newPriority) {}
+// }
 
-const myNotes = new Notes([]);
+// const myNotes = new Notes([]);
 
-myNotes.addNote({ text: 'My first note', priority: Notes.Priority.LOW });
+// myNotes.addNote({ text: 'My first note', priority: Notes.Priority.LOW });
 
-const navEl = document.querySelector('ul');
-console.log(navEl);
+// const navEl = document.querySelector('ul');
 
-const navItemEl = document.querySelectorAll();
+// console.log(navEl);
 
-const imageEl = document.querySelector('.hero-image');
-console.log(imageEl);
-console.log(imageEl.src);
-imageEl.src = 'http...';
+// const navItemEl = document.querySelectorAll();
 
-const heroTitleEl = document.querySelector('.hero-title');
-console.log(heroTitleEl);
-console.log(heroTitleEl.textContent);
+// const imageEl = document.querySelector('.hero-image');
+// console.log(imageEl);
+// console.log(imageEl.src);
+// imageEl.src = 'http...';
 
-heroTitleEl.textContent = "I'm sweety kitten";
+// const heroTitleEl = document.querySelector('.hero-title');
+// console.log(heroTitleEl);
+// console.log(heroTitleEl.textContent);
 
-imageEl.getAttribute('src');
-imageEl.hasAttribute('src');
+// heroTitleEl.textContent = "I'm sweety kitten";
 
-const actions = document.querySelector('.js-actions button');
-console.log(actions[2].dataset.action);
+// imageEl.getAttribute('src');
+// imageEl.hasAttribute('src');
 
-const navEl = document.querySelector('.site-nav');
-console.log(navEl.classList);
-navEl.classList.add('super-cool', 'kujy');
-navEl.classList.remove('super-cool');
+// const actions = document.querySelector('.js-actions button');
+// console.log(actions[2].dataset.action);
 
-navEl.classList.toggle('qwerty');
-navEl.classList.replace('super-cool', 'qwertry');
-vavEl.classList.contains()
+// const navEl = document.querySelector('.site-nav');
+// console.log(navEl.classList);
+// navEl.classList.add('super-cool', 'kujy');
+// navEl.classList.remove('super-cool');
 
+// navEl.classList.toggle('qwerty');
+// navEl.classList.replace('super-cool', 'qwertry');
+// vavEl.classList.contains();
 
-const currentPageUrl = '/portfolio';
-const linkEl = document.querySelector(`.site-nav__link[href="${currentPageUrl}"]`);
+// const currentPageUrl = '/portfolio';
+// const linkEl = document.querySelector(
+//   `.site-nav__link[href="${currentPageUrl}"]`,
+// );
 
-console.log(linkEL);
-linkEl.classList.add('site-nav__link--current');
+// console.log(linkEL);
+// linkEl.classList.add('site-nav__link--current');
 
+// const navEl = document.querySelector('.site-nav');
 
+// const firstNavItemEl = navEl.querySelector('.site-nav__item');
+// console.log(firstNavItemEl);
 
+// const titleEl = document.createElement('sdfrsdf');
+// titleEl.classList.add('page-file');
+// titleEl.textContent = 's;uakgfh';
+// console.log(titleEl);
+
+// console.log(document.body);
+
+// document.body.appendChild(titleEl); //Добавляет в конец
+
+// const imageEl = document.createElement('img');
+// imageEl.src = 'sadfisaghfoiuedshdf';
+// imageEl.alt = '98723465726';
+// imageEl.width = 345;
+// imageEl.setAttribute('width', 87);
+
+// console.log(imageEl);
+
+// const navLinkEl = document.creat;
+
+// const heroEl = document.querySelector('.hero');
+// heroEl.appendChild(titleEl);
+// heroEl.appendChild(imageEl);
+// heroEl.append(titleEl, imageEl);
+
+// const colorPickerOptions = [{}];
+
+// const option = colorPickerOptions[0];
+
+// console.log(buttonEl);
+
+// const elements = colorPickerOptions.map(option => {
+//   const buttonEl = document.createElement('button');
+//   buttonEl.type = 'button';
+//   buttonEl.textContent = option.label;
+//   buttonEl.style.backgroundColor = option.color;
+
+//   return buttonEl;
+// });
+
+// console.log(elements);
+
+// colorPickerOptions.append(...elements);
+
+// const makeColorPickerOptions = options => {
+//   return options.map(option => {
+//     const buttonEl = document.createElement('button');
+//     buttonEl.type = 'button';
+//     buttonEl.textContent = option.label;
+//     buttonEl.style.backgroundColor = option.color;
+//     return buttonEl;
+//   });
+// };
+
+// const elements = makeColorPickerOptions(colorPickerOptions);
+// colorPickerContainerEl.append(...elements);
+
+// console.log(productEl);
+
+// const makeProductCard = ({ name, description, price }) => {
+//   const productEl = document.createElement('article');
+//   productEl.classList.add('product');
+
+//   const titleEl = document.createElement('h2');
+//   titleEl.classList.add('product__name');
+//   titleEl.textContent = 'Nametitle';
+
+//   const firstPEl = document.createElement('p');
+//   firstPEl.classList.add('product__descr');
+//   firstPEl.textContent = 'Description';
+
+//   const secondPEl = document.createElement('p');
+//   secondPEl.textContent = 'Price';
+
+//   productEl.append(titleEl, firstPEl, secondPEl);
+// };
+
+// const elements = products.map(makeProductCard);
+// console.log(elements);
+
+// const titleEl = document.querySelector('.title');
+// console.log(titleEl);
+
+// import transactionHistory from './iuyiyst/ljhjh.js';
+// const makeTableMarkup = transaction => {};
+
+// console.log(transactionHistory);
+
+// const title = document.querySelector('#title');
+// title.textContent = I love JS
+// console.dir(title);
+
+// const li = document.createElement('li');
+// li.textContent = list.children.length
+
+// const cars = [];
+
+// const container = document.querySelector('.js-cars');
+// cars.forEach(({ img, model, price, type }) => {
+//   const li = document.createElement('li');
+//   const image = document.createElement('img');
+//   const h2 = document.createElement('h2');
+//   const h3 = document.createElement('h3');
+//   const p = document.createElement('p');
+
+//   image.src = img;
+//   image.alt = model;
+//   h2.textContent = model;
+//   h3.textContent = type;
+//   p.textContent = price;
+
+//   li.append(image, h2, h3, p);
+//   container.append(li);
+// };)
+
+// const container = document.querySelector('.js-cars');
+// const markup = cars.map(({ img, model, price, type }) => {
+//   const li = document.createElement('li');
+//   const image = document.createElement('img');
+//   const h2 = document.createElement('h2');
+//   const h3 = document.createElement('h3');
+//   const p = document.createElement('p');
+
+//   image.src = img;
+//   image.alt = model;
+//   h2.textContent = model;
+//   h3.textContent = type;
+//   p.textContent = price;
+
+//   li.append(image, h2, h3, p);
+//   return li;
+
+// };)
+
+// container.append(...markup);
+// console.log(markup);
+
+// const markup = cars.map(({ img, model, price, type }) => )
+
+// function handleTargetButtonClick() {
+//   console.log('Click');
+// }
+
+// function targetButtonclickHandler() {
+//   console.log('Click');
+// }
+
+// function onTargetButtonClick() {
+
+// }
+
+// const targetBtn = document.querySelector('.js-target-btn');
+// const addListenerBtn = document.querySelector('.js-add-listener');
+// const removeListenerBtn = document.querySelector('js-remove-listener');
+
+// addListenerBtn.addEventListener('click', () => {
+//   console.log(object);
+//   targetBtn.addEventListener('click', onTargetBtnClick);
+// });
+
+// removeListenerBtn.addEventListener('click', () => {
+//   console.log(object);
+
+//   targetBtn.removeEventListener('click', onTargetBtnClick);
+// });
+
+// function onTargetBtnClick() {
+//   console.log(object);
+// }
+
+// function logMessage() {
+//   console.log('Click on the targe button');
+// }
+
+// const form = document.querySelector('js-register-form');
+
+// form.addEventListener('submit', onFormSubmit);
+
+// function onFormSubmit(event) {
+//   event.preventDefault();
+//   console.log('This is Form submit');
+// }
+
+// const refs = {
+
+// input: document.querySelector('.js-input'),
+// nameLabel: document.querySelector('.js-button > span'),
+// license: document.querySelector('.js-license'),
+// bin: document.querySelector('.js-button').
+// }
+
+// refs.input.addEventListener('focus', onInputFocus);
+// refs.input.addEventListener('blur', onInputFocus)
+
+// refs.input.addEventListener('change', onInputChange)
+
+// function onInputFocus() {
+//     console.log('Input received Focus');;
+
+// }
+
+// functioninInputBlur() {
+//         console.log('Input lost focus');
+//         ;
+//     }
+
+// function onInputChange() {
+//     console.log(event);
+// };
+
+// function onLicenceChange() {}
+
+// const inputEl = document.querySelector('.js-input');
+// inputEl.addEventListener('change', onInput);
+
+// function onInput(evt) {
+//   console.log(evt.currentTarget.value);
+//   console.log(inputEl.value);
+// }
+
+// const form = document.querySelector('.js-form');
+// form.addEventListener('submit', onSubmit);
+
+// function onSubmit(evt) {
+//   evt.preventDefault();
+//   const { userName, userEmail } = evt.currentTarget.elements;
+
+//   const data = {
+//     name: userName.value,
+//     email: userEmail.value,
+//   };
+//   console.log(data);
+// }
+
+// const button = document.querySelector('.js-button');
+// const box = document.querySelector('.js-box');
+// let step = 0;
+// button.addEventListener('click', onClick);
+
+// function onClick() {
+//   step += 50;
+//   box.style.marginTop = step + 'px';
+//   box.style.marginLeft = ${step}px;
+// }
+// const list = document.querySelector('.js-list');
+// const titleAnimal = document.querySelector('.js-title-animal');
+// const maxLength = 40;
+// [...list.children].forEach(title => {
+//   const result = title.textContent.slice(0, maxLength);
+//   const data = title.textContent.slice(maxLength);
+//   title.setAttribute('datavalue', data);
+//   title.textContent = result + '...';
+//   title.addEventListener('click', onClick);
+// });
+
+// function onClick(evt) {
+//   const { value } = evt.currentTarget.dataset;
+//   console.log(value);
+//   evt.currentTarget.textContent += value;
+// }
+
+// const box = document.querySelector('.js-box');
+// const button = document.querySelector('.js-click');
+// button.addEventListener('click', onClick);
+
+// function onClick() {
+//   box.classList.remove('.box-hidden');
+//   document.addEventListener('keydown', onKey);
+// }
+
+// function onKey(evt) {
+//   if (evt.code === 'Escape') {
+//     box.classList.add('box-hidden');
+//     document.removeEventListener('keydown', onKey);
+//   }
+// }
+
+// document.addEventListener('keydown', onKey);
+// function onKey(evt) {
+//   if (evt.ctrlKey && evt.code === 'KeyC') {
+//     evt.preventDefault();
+//   }
+// }
+// const cars = [];
+// const list = document.querySelector('.js-list');
+// const form = document.querySelector('.js-form-serach');
+
+// form.addEventListener('submit', onSearch);
+
+// function createMarkup(arr) {
+//   const markup = arr
+//     .map(
+//       ({ id, car, type, image }) =>
+//         `<li data-id='${id}'>
+//         <img src="${img}" alt="${car}">
+//         <h2>${car}</h2>
+//         <h3>${type}</h3>
+//         <p>${price}</p>
+//     </li>`,
+//     )
+//     .join('');
+//   return markup;
+// }
+
+// function onSearch(evt) {
+//   evt.preventDefault();
+//   console.dir(evt.currentTarget);
+// }
+
+// list.insertAdjacentElement('beforeend', createMarkup);
+// createMarkup(cars);
+
+// const tagsContainer = document.querySelector('.js-tags');
+// console.log(tagsContainer);
+
+// tagsContainer.querySelector('click', onTagsContainerClick);
+
+// function onTagsContainerClick(e) {
+//   if (e.target.nodeName !== 'BUTTON') {
+//   }
+
+//   const currentActiveButton = document.querySelector('.Tags-butn-active)');
+//   console.log(currentActiveButton);
+//   e.target.classList.add('tags-btn-active');
+// }
+
+// const tagsContainer = document.querySelector('.js-tags');
+// co nst selectrdTags = []
+
+// tagsContainer.addEventListener('click', onTagsContainerClick);
+
+// function onTagsContainerClick(e) {
+//   if (e.target.nodeName !== 'BUTTON') {
+//     return;
+//   }
+//     console.log(e.target);
+//     e.target.classList.toggle('tags-btn-active')
+// }
+// const paletteContainer = document.querySelector('asdasd');
+// const cardsMarkaup = createColorsCardMap();
+
+// paletteContainer.addEventListener('click');
+
+// function createColorCardsMarkup(colors) {}
+
+// function onPaletteContainerClick(evt) {
+//     clg/evt.target
+// }
+
+// if (e.target.classLis.contains)
