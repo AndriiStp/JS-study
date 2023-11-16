@@ -55,3 +55,5 @@
 
 // console.log(each(arr, add));
 // console.log(each(arr, sum));
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 4, 54, 568, 95, 68, 92, 36]
+const result = arr.reduce(())
